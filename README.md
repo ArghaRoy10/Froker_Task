@@ -2,7 +2,7 @@
 
 ## Overview
 
-This backend service is designed for a money lending application, inspired by platforms like Slice and KreditBee. It leverages Node.js and MongoDB to manage user registrations, authentication, and financial transactions efficiently. The service provides a robust API for handling user data, loan approvals, and repayments with secure practices.
+This backend service is inspired by platforms like Slice and KreditBee. It leverages Node.js and MongoDB to manage user registrations, authentication, and financial transactions efficiently. The service provides a robust API for handling user data, loan approvals, and repayments with secure practices.
 
 ## Features
 
@@ -82,6 +82,5 @@ This backend service is designed for a money lending application, inspired by pl
 1. Clone the repository: git clone https://github.com/ArghaRoy10/Froker_task.git
 2. Install server dependencies: npm run server
 3. Set up your environment variables: MONGODB_URI=your_mongodb_connection_string
-STRIPE_SECRET_KEY=your_stripe_secret_key
 JWT_SECRET=your_jwt_secret
 4. Start the server: npm run server
